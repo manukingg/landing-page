@@ -1,11 +1,35 @@
 .body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+}
+
+.top,
+.copyright {
+    background-color: #1f2937;
+    color: #f9faf8;
 }
 
 .header {
-    flex: 1;
+    display: flex;
+}
+
+.header-logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-links>ul {
+    display: flex;
+    padding-right: 16px;
+}
+
+.intro-awesome {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .intro-image {
