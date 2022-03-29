@@ -1,0 +1,17 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    flex: 1;
+}
+
+.intro-image {
+    background-color: grey;
+    background-image: url("");
+}
+.cards {
+    display: flex;
+}
