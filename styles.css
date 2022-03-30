@@ -38,23 +38,22 @@ html {
     flex-shrink: 0;
     display: flex;
     justify-content: space-between;
-    width: 450px;
+    width: 350px;
 }
 
 .intro {
     display: flex;
     height: 700px;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .intro-text-block {
-    flex: 1;
     font-size: 18px;
     color: #e5e7eb;
     margin-right: 42px;
-    min-width: 400px;
+    width: 450px;
+    min-width: 450px;
 }
 
 
@@ -74,8 +73,7 @@ html {
 }
 
 .intro-image {
-    flex: 1;
-    max-width: 600px;
+    width: 350px;
 }
 
 
@@ -94,19 +92,16 @@ ul {
     border: #3882f6 solid 3px;
     border-radius: 10px;
     height: 150px;
-    width: 150px;
 }
 
 .cards {
     display: flex;
     justify-content: center;
-    padding:0 10px;
-}
 
-.card>p {
-    width: 150px;
 }
 
 .card {
+    width: 150px;
     margin: 0 10px;
+    min-width: 150px;
 }
