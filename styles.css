@@ -3,6 +3,11 @@ html {
     min-height: 100%;
 }
 
+a {
+    text-decoration: none;
+    color:#f9faf8;
+}
+
 .body {
     margin: 0;
     display: flex;
@@ -38,8 +43,8 @@ html {
     color: #e5e7eb;
     display: flex;
     justify-content: space-between;
-    width: 400px;
-    min-width: 400px;
+    width: 450px;
+    min-width: 450px;
 }
 
 .intro {
@@ -60,7 +65,7 @@ html {
 
 .intro-awesome {
     font-size: 48px;
-    font-weight:bold;
+    font-weight: 900;
 }
 
 .intro-text-block>button {
@@ -71,6 +76,7 @@ html {
     width: 100px;
     height: 28px;
     font-size: 16px;
+    cursor:pointer;
 }
 
 .intro-image {
@@ -105,4 +111,66 @@ ul {
     width: 150px;
     margin: 0 10px;
     min-width: 150px;
+}
+
+.quote-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-color: #e5e7eb;
+    color:  #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 800px;
+}
+
+.author {
+    margin-left: 400px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: #3882f6 solid 3px;
+    border-radius: 9px;
+    background-color: #3882f6;
+    margin: 70px 480px;
+    padding: 40px 100px;
+    min-width: 300px;
+}
+
+.signup-text {
+    color:#e5e7eb;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    border:#e5e7eb solid 3px;
+    border-radius: 5px;
+    color:#e5e7eb;
+    padding: 5px 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    flex-shrink: 0;
+    cursor:pointer;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
