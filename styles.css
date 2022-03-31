@@ -21,7 +21,7 @@ html {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -29,16 +29,17 @@ html {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
-    flex-shrink: 0;
+    margin-right: 250px;
+    min-width: 146.69px;
 }
 
 .header-links {
     font-size: 18px;
     color: #e5e7eb;
-    flex-shrink: 0;
     display: flex;
     justify-content: space-between;
-    width: 350px;
+    width: 400px;
+    min-width: 400px;
 }
 
 .intro {
